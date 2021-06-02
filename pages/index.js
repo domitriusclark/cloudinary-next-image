@@ -1,10 +1,9 @@
-import { Flex } from '@chakra-ui/react';
-import { Layout } from '@components/Layout';
+import Image from 'next/image';
 
-export default function Index() {
+export default function Home() {
   return (
-    <Layout>
-      <Flex direction="column"></Flex>
-    </Layout>
-  );
+    <div>
+      <Image src="/megumi.jpg" width="500" height="300" />
+    </div>
+  )
 }
